@@ -20,7 +20,7 @@ function BtnComponent(props) {
      {(props.status === 2)? 
         <div>
           <button className="stopwatch-btn stopwatch-btn-gre"
-                  onClick={props.resume}>Resume</button>
+                  onClick={props.resume}>Wait</button>
           <button className="stopwatch-btn stopwatch-btn-yel"
                   onClick={props.reset}>Reset</button>
         </div> : ""
